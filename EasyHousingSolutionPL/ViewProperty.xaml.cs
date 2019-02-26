@@ -126,8 +126,8 @@ namespace EasyHousingSolutionPL
         private void Hyperlink_Click_2(object sender, RoutedEventArgs e)
         {
             MainWindow fromsearch = new MainWindow();
-            this.Hide();
-            fromsearch.Show();
+            //this.Hide();
+            fromsearch.Show(); 
         }
     }
 }
