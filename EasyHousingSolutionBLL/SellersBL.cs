@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using EasyHousingSolutionDAL;
 using EasyHousingSolutionEntity;
 using EHSException;
-
+//SellerBL
 namespace EasyHousingSolutionBLL
 {
     public class SellersBL
