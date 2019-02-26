@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="BuyersBL.cs" />
     <Compile Include="CartBL.cs" />
-    <Compile Include="ImageBL.cs" />
     <Compile Include="PropertyBL.cs" />
     <Compile Include="SellersBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
