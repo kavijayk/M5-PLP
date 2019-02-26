@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="BuyersDAL.cs" />
     <Compile Include="CartDAL.cs" />
-    <Compile Include="GlobalData.cs" />
     <Compile Include="ImagesDAL.cs" />
     <Compile Include="PropertyDAL.cs" />
     <Compile Include="SellersDAL.cs" />
