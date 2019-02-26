@@ -19,7 +19,7 @@ namespace EasyHousingSolutionDAL
         {
             try
             {
-                int StateId = 0;
+                //int StateId = 0;
                 string Query = "Project1.uspGetStateId";
                 SqlCommand command = new SqlCommand(Query, connection);
                 command.CommandType = CommandType.StoredProcedure;
