@@ -1,0 +1,34 @@
+﻿<Window x:Class="EasyHousingSolutionPL.HomeLoans"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyHousingSolutionPL"
+        mc:Ignorable="d"
+        Title="HomeLoans" Height="450" Width="800">
+    <Grid Background="Bisque">
+        <Label Content="EHS Housing Loans " HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Margin="217,10,228,0" FontWeight="Bold" Width="347" HorizontalContentAlignment="Center">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Label Content="Flexible Tenures" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="317,83,0,0" FontWeight="Bold" FontStyle="Italic" FontSize="16"/>
+        <Label Content=" Low Interest Rates" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139,83,0,0" FontWeight="Bold" FontStyle="Italic" FontSize="16"/>
+        <Label  Content=" Easy Repayment Options" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="471,83,0,0" FontStyle="Italic" FontWeight="Bold" FontSize="16">
+
+        </Label>
+        <Image Source="Images\andhra.jpg" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="171" Margin="90,138,0,0"/>
+        <Image Source="Images\boi.jpg" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="171" RenderTransformOrigin="2.718,2.758" Margin="90,281,0,0"/>
+        <Image Source="Images\dhfl.jpg" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="145" Margin="534,276,0,0"/>
+        <Image Source="Images\hdfc.jpg" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="184" Margin="313,280,0,0"/>
+        <Image Source="Images\icici.jpg" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="156" Margin="533,138,0,0"/>
+        <Image Source="Images\sbi.png" HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="190" Margin="307,138,0,0"/>
+        <Label Content="Terms and Conditions Apply*" Foreground="BlueViolet" HorizontalAlignment="Center" Margin="404,392,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="352" HorizontalContentAlignment="Right"/>
+
+        <TextBlock HorizontalAlignment="Center" Margin="664,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="118" FontSize="14">
+            <Hyperlink NavigateUri="HomePage.xaml" Click="Hyperlink_Click">
+                _Back
+            </Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>
